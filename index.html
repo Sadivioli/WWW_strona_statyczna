@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>tytul</title>
+	<meta charset="utf-8">
+	<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+	<script src="js/menuToggle.js" type="text/javascript"></script>
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<header>
+		<div class="line-top">
+			<div class="center flexBlock">
+				<div class="left flexBlock">
+					<span class="userIcon"></span>
+					<a href="#" class="register">rejestracja</a>
+					<span class="break">/</span>
+					<a href="#" class="login">logowanie</a>
+				</div>
+				<ul class="flexBlock">
+					<li class="flexBlock">
+						<img src="images/icons/phone.png" alt="" />
+						<a href="tel:+4811123456789">+48 123 456 789</a>
+					</li>
+					<li class="flexBlock">
+						<img src="images/icons/placeholder.png" alt="" />
+						<a href="http://maps.google.com/?q=Kraków+Kochanowskiego+21+a" target="blank">Kraków, Kochanowskiego 21 a</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="line-bottom center flexBlock">
+			<a href="/" class="logo">
+				<img src="images/logo.png" alt="" width="120px"/>
+			</a>
+			
+			<nav id="nav">
+				<a href="#mobile" onclick="toggle()" class="mobileMenu">MENU <strong>&#9776;</strong></a>
+				<ul class="flexBlock">
+					<li class="yellow">
+						<a href="#" onclick="toggle()">Strona główna</a>
+					</li>
+					<li>
+						<a href="#section-offers" onclick="toggle()">Oferta</a>
+					</li>
+					<li>
+						<a href="#section-lastMinute" onclick="toggle()">Ostatnie miejsca</a>
+					</li>
+					<li>
+						<a href="#section-contact" onclick="toggle()">Kontakt</a>
+					</li>
+				</ul>
+			</nav>	
+		</div>
+		<div class="button-box">
+			<a href="#section-offers" class="callToAction">Wybierz się gdzieś</a>
+		</div>
+	</header>
+	
+	
+	<section>
+	
+		<div id="section-offers" class="topProducts center">
+			<div class="headerBox">
+				<p>Nasze topowe</p>
+				<h3>Wycieczki</h3>
+			</div>
+			
+			<div class="products flexBlock">
+				<div class="item">
+					<div class="photo flexBlock" style="background:url(images/offer/1.jpg) no-repeat center">
+						<div>
+							<p>EUROPA</p>
+							<h2>BUDAPESZT</h2>
+						</div>
+					</div>
+					<p class="promotion">PROMOCJA</p>
+					<p class="opis">lProin sed lectus vel velit sagittis semper ut vitae lectus. Phasellus malesuada ante vel nibh sagittis semper. Cras sodales lobortis leo fermentum tincidunt.
+					</p>
+					<div class="link">
+						<a href="#" class="redLinkButton">
+							<span class="text">DOSTĘPNE OD<strong>900 PLN</strong></span>
+							<span class="break"></span>
+							<span class="info">WIĘCEJ</span>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="photo flexBlock" style="background:url(images/offer/1.jpg) no-repeat center">
+						<div>
+							<p>EUROPA</p>
+							<h2>BUDAPESZT</h2>
+						</div>
+					</div>
+					<p class="promotion">PROMOCJA</p>
+					<p class="opis">Proin sed lectus vel velit sagittis semper ut vitae lectus. Phasellus malesuada ante vel nibh sagittis semper. Cras sodales lobortis leo fermentum tincidunt.
+					</p>
+					<div class="link">
+						<a href="#" class="redLinkButton">
+							<span class="text">DOSTĘPNE OD<strong>900 PLN</strong></span>
+							<span class="break"></span>
+							<span class="info">WIĘCEJ</span>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="photo flexBlock" style="background:url(images/offer/1.jpg) no-repeat center">
+						<div>
+							<p>EUROPA</p>
+							<h2>BUDAPESZT</h2>
+						</div>
+					</div>
+					<p class="promotion">PROMOCJA</p>
+					<p class="opis">Proin sed lectus vel velit sagittis semper ut vitae lectus. Phasellus malesuada ante vel nibh sagittis semper. Cras sodales lobortis leo fermentum tincidunt.
+					</p>
+					<div class="link">
+						<a href="#" class="redLinkButton">
+							<span class="text">DOSTĘPNE OD<strong>900 PLN</strong></span>
+							<span class="break"></span>
+							<span class="info">WIĘCEJ</span>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="photo flexBlock" style="background:url(images/offer/1.jpg) no-repeat center">
+						<div>
+							<p>EUROPA</p>
+							<h2>BUDAPESZT</h2>
+						</div>
+					</div>
+					<p class="promotion">PROMOCJA</p>
+					<p class="opis">Proin sed lectus vel velit sagittis semper ut vitae lectus. Phasellus malesuada ante vel nibh sagittis semper. Cras sodales lobortis leo fermentum tincidunt.
+					</p>
+					<div class="link">
+						<a href="#" class="redLinkButton">
+							<span class="text">DOSTĘPNE OD<strong>900 PLN</strong></span>
+							<span class="break"></span>
+							<span class="info">WIĘCEJ</span>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="photo flexBlock" style="background:url(images/offer/1.jpg) no-repeat center">
+						<div>
+							<p>EUROPA</p>
+							<h2>BUDAPESZT</h2>
+						</div>
+					</div>
+					<p class="promotion">PROMOCJA</p>
+					<p class="opis">Proin sed lectus vel velit sagittis semper ut vitae lectus. Phasellus malesuada ante vel nibh sagittis semper. Cras sodales lobortis leo fermentum tincidunt.
+					</p>
+					<div class="link">
+						<a href="#" class="redLinkButton">
+							<span class="text">DOSTĘPNE OD<strong>900 PLN</strong></span>
+							<span class="break"></span>
+							<span class="info">WIĘCEJ</span>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="photo flexBlock" style="background:url(images/offer/1.jpg) no-repeat center">
+						<div>
+							<p>EUROPA</p>
+							<h2>BUDAPESZT</h2>
+						</div>
+					</div>
+					<p class="promotion">PROMOCJA</p>
+					<p class="opis">Proin sed lectus vel velit sagittis semper ut vitae lectus. Phasellus malesuada ante vel nibh sagittis semper. Cras sodales lobortis leo fermentum tincidunt.
+					</p>
+					<div class="link">
+						<a href="#" class="redLinkButton">
+							<span class="text">DOSTĘPNE OD<strong>900 PLN</strong></span>
+							<span class="break"></span>
+							<span class="info">WIĘCEJ</span>
+						</a>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div id="section-lastMinute" class="lastMinute">
+			<div class="center">
+				<div class="headerBox">
+					<p>Wycieczki</p>
+					<h3>LAST MINUTE</h3>
+				</div>
+				<div class= "products flexBlock">
+					<div class="item flexBlock">
+						<div class="fota" style="background:url(images/lastminute/1.jpg) no-repeat center">
+							<div class="header">
+								<strong>EGIPT</strong>
+								<h2>SHARM EL SHAIKH</h2>
+							</div>
+						</div>
+						<div class="right">
+							<p>Donec placerat, mi eu sollicitudin varius, sapien lectus pellentesque enim, tincidunt bibendum nisi metus fermentum neque. Vestibulum vitae egestas libero. Mauris vitae nisl vel ligula euismod pulvinar. Suspendisse dignissim tortor maximus sollicitudin molestie. Vestibulum quis interdum eros.</p>
+								<a href="#" class="redLinkButton">
+									<span class="text">DOSTĘPNE OD<strong>2500 PLN</strong></span>
+									<span class="break"></span>
+									<span class="info">WIĘCEJ</span>
+								</a>
+						</div>
+						
+					</div>
+					<div class="item flexBlock">
+						<div class="fota" style="background:url(images/lastminute/1.jpg) no-repeat center">
+							<div class="header">
+								<strong>EGIPT</strong>
+								<h2>SHARM EL SHAIKH</h2>
+							</div>
+						</div>
+						<div class="right">
+							<p>Donec placerat, mi eu sollicitudin varius, sapien lectus pellentesque enim, tincidunt bibendum nisi metus fermentum neque. Vestibulum vitae egestas libero. Mauris vitae nisl vel ligula euismod pulvinar. Suspendisse dignissim tortor maximus sollicitudin molestie. Vestibulum quis interdum eros.</p>
+								<a href="#" class="redLinkButton">
+									<span class="text">DOSTĘPNE OD<strong>2500 PLN</strong></span>
+									<span class="break"></span>
+									<span class="info">WIĘCEJ</span>
+								</a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="line-bottom">
+			<p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et elit bibendum,ornare est eu, mollis libero. Nunc risus sapien, sodales nec nisl
+sit amet, pellentesque porttitor ex. </p>
+		</div>
+		<p class="bottom">Projekt strona 2017 (c) / Wszystkie prawa zastrzeżone</p>
+	</footer>
+</body>
+</html>
